@@ -8,11 +8,12 @@
 <body>
 <h2>sdk facebook</h2>
 
-<div id="fb-root"></div>
+<div id="fb-root center-block">
 <fb:login-button 
   scope="public_profile,email"
   onlogin="checkLoginState();">
 </fb:login-button>
+</div>
 <script>
   window.fbAsyncInit = function() {
     FB.init({
